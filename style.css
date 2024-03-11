@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav    
+{
+    
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 5px;
+   
+    
+    
+}
+
+.logo{
+    height: 100px;
+    width: 200px;
+    
+}
+.menu
+{
+    opacity: 0;
+}
+.logo img{
+    height: 60px;
+    width: 200px;
+}
+.right
+{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+span
+{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+}
+a img
+{
+    height: 35px;
+}
+h1{
+    font-size: 20px;
+}
+.products
+{    
+    height: 90vh;
+    width: 100%;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    padding: 0 100px;
+   
+}
+.imgspecial
+{
+    height: 20px;
+}
+.details
+{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border-radius: 20px;
+    height: 5vh;
+    width: 6vw; 
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 210, 96);
+}
+
+.necklaces 
+{
+    padding: 0 10px;
+    width: 100%;
+    height: 31vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.necklaces a 
+{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    gap: 5px;
+
+}
+.necklaces a img
+{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.earrings 
+{
+    padding: 0 10px;
+    width: 100%;
+    height: 31vh;
+    display: flex;
+  
+    justify-content: space-around;
+    
+}
+.earrings a 
+{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    gap: 5px;
+
+}
+.earrings a img
+{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.bracelets 
+{
+    padding: 0 10px;
+    width: 100%;
+    height: 31vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bracelets a 
+{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    gap: 5px;
+
+}
+.bracelets a img
+{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* using mediaQuery for respossivess:- */
+
+
+
+@media screen and (max-width:600px)
+{
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .nav    
+    {
+        height: 5vh;
+        display: flex;
+      
+    }
+    .products
+    {    
+        width: 100%;
+        font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    
+    }
+    .logo img{
+        height: 50px;
+        width: 100px;
+    }
+    .menu{
+        height: 35px;
+        opacity: 1;
+        position:  absolute;
+        right: 0;
+    }
+    .right
+    {
+        font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+        
+    .necklaces 
+    {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       
+
+    }
+    .imgspecial{
+        height: 20px;
+        width: 20px;
+    }
+
+    .necklaces a 
+    {
+
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        gap: 50px;
+
+    }
+    .necklaces a img
+    {
+        height: 10vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+    .details
+    {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    button{
+        border-radius: 20px;
+        height: 10vh;
+        width: 20vw; 
+        border: none;
+        cursor: pointer;
+        background-color: rgb(255, 210, 96);
+    }
+
+    .earrings 
+    {
+
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     
+        
+    }
+    .earrings a 
+    {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        gap: 50px;
+
+    }
+    .earrings a img
+    {
+        height: 10vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+    .bracelets 
+    {
+
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        
+    }
+    .bracelets a 
+    {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        gap: 50px;
+
+    }
+    .bracelets a img
+    {
+        height: 10vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+
+} 
